@@ -1,0 +1,7 @@
+---
+- type: replace
+  path: /releases/name=cfsummit
+  value:
+    name: cfsummit
+    version: create
+    url: file://.
