@@ -1,6 +1,6 @@
 ---
 name: cfsummit
-packages: []
+packages: [redis]
 templates:
   ignoreme: ignoreme
 properties: {}
