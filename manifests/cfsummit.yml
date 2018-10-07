@@ -14,8 +14,12 @@ instance_groups:
   vm_type: default
   stemcell: default
   networks: [{name: default}]
+  persistent_disk: 65535
   jobs:
   - name: cfsummit
+    release: cfsummit
+    properties: {}
+  - name: redis-server
     release: cfsummit
     properties: {}
 

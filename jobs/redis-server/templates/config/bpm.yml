@@ -1,0 +1,11 @@
+---
+processes:
+- name: redis-server
+  executable: /var/vcap/packages/redis/bin/redis-server
+  args:
+  - /var/vcap/jobs/redis-server/config/redis.conf
+  ephemeral_disk: true
+  persistent_disk: true
+  limits:
+    open_files: 12500
+

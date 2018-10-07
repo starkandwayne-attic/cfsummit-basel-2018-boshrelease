@@ -1,0 +1,28 @@
+---
+name: redis-server
+
+packages: ["redis"]
+templates:
+  config/bpm.yml: config/bpm.yml
+  config/redis.conf: config/redis.conf
+
+# Documentation https://bosh.io/docs/links.html
+# Tutorial      https://gist.github.com/Amit-PivotalLabs/c39528248b8cdc4ba8e347f8aa68abb6
+consumes: []
+
+provides:
+- name: redis-server
+  type: redis-server
+  properties:
+  - port
+  - password
+
+properties:
+  port:
+    description: Bind to this port
+    default: 6379
+  password:
+    description: Password to access redis server
+  base_dir:
+    description: Base dir for storing database files
+    default: /var/vcap/store/redis-server
