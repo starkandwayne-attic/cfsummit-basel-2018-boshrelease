@@ -1,0 +1,23 @@
+name: cfsummit
+version: 1.0.0
+commit_hash: 33beb35
+uncommitted_changes: false
+jobs:
+- name: cfsummit
+  version: ef01b42c8545549b11b129b08a2837391ade5259
+  fingerprint: ef01b42c8545549b11b129b08a2837391ade5259
+  sha1: 0f962e275a3bdf98a447afc78012b5f89f02e3c6
+- name: redis-server
+  version: f577d763513684b535ecf78281b6392c802a1ad1
+  fingerprint: f577d763513684b535ecf78281b6392c802a1ad1
+  sha1: 47b6ef97a55440f4afc006a742386a1a0fca69df
+packages:
+- name: redis
+  version: 9bb094e1f9a8b2b927603761723101ed2f83b741
+  fingerprint: 9bb094e1f9a8b2b927603761723101ed2f83b741
+  sha1: 8071e1e4514783b1db975e161c25c1c168444daf
+  dependencies: []
+license:
+  version: faf1f3b58290fd7a33998c0f54ffe868c3aa0168
+  fingerprint: faf1f3b58290fd7a33998c0f54ffe868c3aa0168
+  sha1: c76c8890d5b3bed8798450eec9b83a87455ceac6
