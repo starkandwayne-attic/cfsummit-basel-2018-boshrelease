@@ -42,6 +42,5 @@ releases:
   version: 0.12.3
   url: git+https://github.com/cloudfoundry-incubator/bpm-release
 - name: cfsummit
-  version: create  # TODO: update after first final release
-  url: .           # TODO: update after first final release
-  # sha1:            TODO: update after first final release
+  version: 1.0.0
+  url: git+https://github.com/starkandwayne/cfsummit-boshrelease
